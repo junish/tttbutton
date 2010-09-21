@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title>tttbutton Examples</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="../lib/jquery-1.4.2.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../lib/jquery-tttbutton.js" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="../skins/default/css/jquery-tttbutton.css" />
+        <link rel="stylesheet" type="text/css" href="../skins/rich/css/jquery-tttbutton.css" />
+    </head>
+    <body>
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+                //$("#target").tttbutton();
+                $(".target").tttbutton();
+                $(".target_no_disable").tttbutton({
+                    'disable': false
+                });
+                $(".target_rich").tttbutton({
+                    'style': 'rich'
+                });
+                $(".target_multi").tttbutton();
+                $(".target_func").tttbutton({
+                    'mouseover': function(){console.log('over')},
+                    'mouseout': function(){console.log('out')},
+                    'mousedown': function(){console.log('down')},
+                    'mouseup': function(){console.log('up')},
+                });
+                $(".target_anchor").tttbutton();
+                //$(".target_button").tttbutton();
+            });
+        </script>
+        <span class="target">This is span</span>
+        <br />
+        <div class="target">This is div</div>
+        <br />
+        <span class="target_no_disable">This is no disable</span>
+        <br />
+        <span class="target_rich">This is rich</span>
+        <br />
+        <span class="target_multi">This is first</span>
+        <br />
+        <span class="target_multi">This is second</span>
+        <br />
+        <span class="target_func">This is func</span>
+        <br />
+        <a href="#" class="target_anchor">This is anchor</a>
+        <br />
+        <!--
+        <button class="target_button">This is button</button>
+        <br />
+        -->
+    </body>
+</html>

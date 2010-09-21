@@ -1,0 +1,59 @@
+.tttbutton {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #EDECED;
+    border: solid 1px #C2C2C2;
+}
+a.tttbutton {
+    text-decoration: none;
+}
+.tttbutton .tttbutton_left{
+    display: inline-block;
+    vertical-align: middle;
+    width: 9px;
+    height: 23px;
+}
+.tttbutton .tttbutton_middle{
+    display: inline-block;
+    vertical-align: middle;
+    height: 23px;
+}
+.tttbutton .tttbutton_right{
+    display: inline-block;
+    vertical-align: middle;
+    width: 9px;
+    height: 23px;
+}
+
+.tttbutton_over {
+    background-color: #C1E911;
+}
+.tttbutton_over .tttbutton_left{
+}
+.tttbutton_over .tttbutton_middle{
+}
+.tttbutton_over .tttbutton_right{
+}
+
+.tttbutton_click {
+    background-color: #95BA00;
+}
+.tttbutton_click .tttbutton_left{
+}
+.tttbutton_click .tttbutton_middle{
+}
+.tttbutton_click .tttbutton_right{
+}
+
+.tttbutton_disable {
+    background-color: #989898;
+    cursor: default;
+}
+.tttbutton_disable .tttbutton_left{
+}
+.tttbutton_disable .tttbutton_middle{
+}
+.tttbutton_disable .tttbutton_right{
+}

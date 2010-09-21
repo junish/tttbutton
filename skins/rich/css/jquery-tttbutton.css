@@ -1,0 +1,63 @@
+.tttbutton_rich {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 5px;
+}
+.tttbutton_rich .tttbutton_rich_left{
+    display: inline-block;
+    vertical-align: middle;
+    width: 9px;
+    height: 23px;
+    background: transparent url('../images/button_left.png') no-repeat center center;
+}
+.tttbutton_rich .tttbutton_rich_middle{
+    display: inline-block;
+    vertical-align: middle;
+    height: 23px;
+    background: transparent url('../images/button_middle.png') repeat-x center center;
+}
+.tttbutton_rich .tttbutton_rich_right{
+    display: inline-block;
+    vertical-align: middle;
+    width: 9px;
+    height: 23px;
+    background: transparent url('../images/button_right.png') no-repeat center center;
+}
+
+.tttbutton_rich_over {
+}
+.tttbutton_rich_over .tttbutton_rich_left{
+    background: transparent url('../images/button_left_over.png') no-repeat center center;
+}
+.tttbutton_rich_over .tttbutton_rich_middle{
+    background: transparent url('../images/button_middle_over.png') repeat-x center center;
+}
+.tttbutton_rich_over .tttbutton_rich_right{
+    background: transparent url('../images/button_right_over.png') no-repeat center center;
+}
+
+.tttbutton_rich_click {
+}
+.tttbutton_rich_click .tttbutton_rich_left{
+    background: transparent url('../images/button_left_click.png') no-repeat center center;
+}
+.tttbutton_rich_click .tttbutton_rich_middle{
+    background: transparent url('../images/button_middle_click.png') repeat-x center center;
+}
+.tttbutton_rich_click .tttbutton_rich_right{
+    background: transparent url('../images/button_right_click.png') no-repeat center center;
+}
+
+.tttbutton_rich_disable {
+    cursor: default;
+}
+.tttbutton_rich_disable .tttbutton_rich_left{
+    background: transparent url('../images/button_left_disable.png') no-repeat center center;
+}
+.tttbutton_rich_disable .tttbutton_rich_middle{
+    background: transparent url('../images/button_middle_disable.png') repeat-x center center;
+}
+.tttbutton_rich_disable .tttbutton_rich_right{
+    background: transparent url('../images/button_right_disable.png') no-repeat center center;
+}
